@@ -9125,8 +9125,8 @@ vaber:
   name: vaber
   nativeToken:
     decimals: 18
-    name: vab
-    symbol: VAB
+    name: Ether
+    symbol: ETH
   protocol: ethereum
   rpcUrls:
     - http: http://127.0.0.1:8545
