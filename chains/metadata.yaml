@@ -9117,6 +9117,22 @@ unitzero:
   rpcUrls:
     - http: https://rpc.unit0.dev
   technicalStack: other
+vaber:
+  chainId: 2786
+  displayName: Vaber
+  domainId: 2786
+  isTestnet: false
+  name: vaber
+  nativeToken:
+    decimals: 18
+    name: vab
+    symbol: VAB
+  protocol: ethereum
+  rpcUrls:
+    - http: http://127.0.0.1:8545
+  technicalStack: other
+  transactionOverrides:
+    gasPrice: 0
 vana:
   blockExplorers:
     - apiUrl: https://vanascan.io/api/eth-rpc
