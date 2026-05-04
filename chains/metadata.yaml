@@ -9133,6 +9133,10 @@ vaber:
   technicalStack: other
   transactionOverrides:
     gasPrice: 0
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 1
+    reorgPeriod: 0
 vana:
   blockExplorers:
     - apiUrl: https://vanascan.io/api/eth-rpc
