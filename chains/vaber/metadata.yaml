@@ -13,7 +13,7 @@ rpcUrls:
   - http: http://127.0.0.1:53237
 technicalStack: other
 transactionOverrides:
-  gasPrice: "0.002"
+  gasPrice: 0.1
 blocks:
   confirmations: 1
   estimateBlockTime: 1
