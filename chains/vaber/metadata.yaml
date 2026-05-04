@@ -10,7 +10,7 @@ nativeToken:
   symbol: ETH
 protocol: ethereum
 rpcUrls:
-  - http: http://127.0.0.1:49904
+  - http: http://127.0.0.1:53237
 technicalStack: other
 transactionOverrides:
   gasPrice: 0
