@@ -5255,6 +5255,7 @@ vaber:
   incrementalDomainRoutingIsmFactory: "0x20624701BFb7A01D611ca4f4f1F81Fd71eF8B2f6"
   staticMerkleRootWeightedMultisigIsmFactory: "0xA7CFB97F5C0ea7d3237CF7080f2a615c5EFDD2Ad"
   staticMessageIdWeightedMultisigIsmFactory: "0x4a59C16F23ca643b03B3A63f3A59D973BF49b50d"
+  interchainSecurityModule: "0xBe888707aaC72b3780fc9C7e896FD5B2dAf3D7ff"
   proxyAdmin: "0xBFDdCf76cA976f111AfBfae373a8b93e120383F6"
   mailbox: "0x1181AC8cF37687544792B0Bb4343a84CDf39DaF6"
   interchainAccountRouter: "0x65c87Aa9c05ab55cB592fE7FD8b3ed11330A41ba"
