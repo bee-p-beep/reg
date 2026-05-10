@@ -11173,6 +11173,39 @@ USDT/ethereum-swell:
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
+USDT/ethereum-vaber:
+  ethereum:
+    type: collateral
+    token: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    owner: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+    interchainSecurityModule:
+      type: staticAggregationIsm
+      modules:
+        - type: trustedRelayerIsm
+          relayer: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+        - owner: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+          type: defaultFallbackRoutingIsm
+          domains: {}
+      threshold: 1
+    proxyAdmin:
+      owner: "0x562Dfaac27A84be6C96273F5c9594DA1681C0DA7"
+      address: "0x75EE15Ee1B4A75Fa3e2fDF5DF3253c25599cc659"
+  vaber:
+    type: collateral
+    token: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    owner: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+    interchainSecurityModule:
+      type: staticAggregationIsm
+      modules:
+        - type: trustedRelayerIsm
+          relayer: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+        - owner: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+          type: defaultFallbackRoutingIsm
+          domains: {}
+      threshold: 1
+    proxyAdmin:
+      owner: "0x061cf0eF075bD187775Bd4a83c0Ee832dA5644B3"
+      address: "0xBFDdCf76cA976f111AfBfae373a8b93e120383F6"
 USDT/ethereum-viction:
   tokens:
     - addressOrDenom: "0x4221a16A01F61c2b38A03C52d828a7041f6AAA49"
